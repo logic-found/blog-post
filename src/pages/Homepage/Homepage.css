@@ -1,0 +1,9 @@
+
+.posts-and-sidebar{
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    margin-top: 5vh;
+    
+  
+}

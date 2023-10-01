@@ -1,0 +1,63 @@
+:root{
+    --border-color: #a7a4a4;
+}
+
+.singlePost{
+    width: 30vw;
+    height: 65vh;
+    padding: 2vh;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    text-align: center;
+    box-sizing: border-box;
+    margin:  2vh 4vh;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: space-around;
+    font-family: 'Varela Round', sans-serif;
+    transition: all 0.3s ease; /* Add a smooth transition effect for all properties */
+
+
+}
+.singlePost:hover{
+    border: 3px solid var(--border-color);
+
+}
+
+.singlePost-img{
+    height: 40vh;
+    width: 27vw;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.singlePost-category-and-time{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.singlePost-time, .singlePost-category{
+    font-family: "Lora", serif;
+    font-size: small;
+    font-style: italic;
+    color: rgb(203, 132, 108);
+}
+
+.singlePost-title{
+    font-size: larger;
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+.singlePost-desc{
+    font-size: small;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Optional: Display ellipsis for truncated text */
+    display:-webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  
+}

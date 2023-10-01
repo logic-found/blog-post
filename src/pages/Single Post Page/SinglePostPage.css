@@ -1,0 +1,57 @@
+.singlePostPage{
+    
+    width: 100%;
+    position: absolute;
+    top:12vh;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+    font-size: medium;
+    color:#444;
+    
+
+}
+
+.singlePostPage-content{
+    flex: 7;
+    padding: 0 5vh 5vh 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.singlePostPage-title{
+    font-size: x-large;
+
+}
+
+.singlePostPage-img{
+    height:60vh;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.singlePostPage-author-and-edit{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    font-style: italic;
+    padding: 1vh 0;
+    color: rgb(203, 132, 108);
+    
+}
+.singlePostPage-desc{
+    font-size: small;
+    
+}
+
+.singlePostPage-icons{
+    margin-left: 2vh;
+    font-size: large;
+    color: #444;
+    cursor: pointer;
+
+}
